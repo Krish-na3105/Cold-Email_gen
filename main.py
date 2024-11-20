@@ -28,7 +28,7 @@ def create_streamlit_app(llm, portfolio):
     st.title("📧 Cold Mail Generator")
         
     # Input for URL
-    url_input = st.text_input("Enter a URL:", value="https://jobs.adidas-group.com/adidas/job/Spartanburg-Tech-Consultant-SC/1124281801/?feedId=301201&utm_source=j2w")
+    url_input = st.text_input("Enter a URL:", value=" ")
     submit_button = st.button("Submit")
 
     if submit_button:
